@@ -4,7 +4,7 @@
       <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
         <h4 class="fw-bold">About the Company</h4>
         <div class="container">
-          <p>Patti's Paradoxes is an independent software and web application solutions company based in Northern Nevada. We aim to provide the best possible service and content to our customers in order to meet their budgetary needs and time restrictions.</p>
+          <p>Patti's Paradoxes is an independent software and web application solutions company based in Northern Nevada. We aim to provide the best possible service and content to our customers to meet their budgetary needs and time restrictions.</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0">

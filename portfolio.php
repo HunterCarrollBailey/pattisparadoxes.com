@@ -12,7 +12,7 @@
     <div class="row align-items-center">
         <div class="col-md-4 offset-md-4 rounded border border-primary shadow fade-from-bt-3s">
             <img src="/img/uTM_banner.png" alt="un-Traditional Magick Logo" class="img-fluid">
-            <p class="text-primary lead">One of our first customers who we designed a website as well as a full Engagement and Learning Management System.</p>
+            <p class="text-primary lead">One of our first customers whom we designed a website as well as a full Engagement and Learning Management System.</p>
             <p class="text-end"><a class="btn btn-outline-primary" href="https://un-traditionalmagick.com" target="_blank">Check it Out</a></p>
         </div>
     </div>
