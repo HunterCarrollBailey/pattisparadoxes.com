@@ -22,7 +22,7 @@
                 <a class="link-secondary d-none" href="#">Subscribe</a>
             </div>
             <div class="col-4 text-center">
-                <img src="img/Patti's Paradoxes Logo 2021 Long.svg" alt="Patti's Paradoxes Logo" class="img-fluid">
+                <a href="/index"><img src="img/Patti's Paradoxes Logo 2021 Long.svg" alt="Patti's Paradoxes Logo" class="img-fluid"></a>
             </div>
             <div class="col-4 d-flex justify-content-end align-items-center">
                 <a class="btn btn-sm btn-outline-secondary d-none" href="#">Login</a>
