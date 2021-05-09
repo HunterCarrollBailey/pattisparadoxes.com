@@ -37,36 +37,36 @@
     <div style="height: 57.6vh;" class="container mt-4">
         <div class="row">
             <div class="col-md-4 offset-md-4">
-            <form>
+            <form action="/includes/signup.inc.php" method="POST">
                 <h1 class="h3 mb-3 fw-normal">Create An Account</h1>
                 <div class="row g-2 mb-2">
                     <div class="col">
                         <div class="form-floating">
-                            <input type="text" class="form-control" id="firstName" placeholder="John" autocomplete="off">
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="John" autocomplete="off">
                             <label for="firstName">First Name</label>
                         </div>                  
                     </div>
                     <div class="col">
                         <div class="form-floating">
-                            <input type="text" class="form-control" id="lastName" placeholder="John" autocomplete="off">
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="John" autocomplete="off">
                             <label for="firstName">Last Name</label>
                         </div>                  
                     </div>
                 </div>
                 <div class="form-floating mb-2">
-                    <input type="email" class="form-control" id="userEmail" placeholder="user@example.com" autocomplete="off">
+                    <input type="email" class="form-control" id="userEmail" name="userEmail" placeholder="user@example.com" autocomplete="off">
                     <label for="userEmail">Email</label>
                 </div>
                 <div class="row g-2 mb-2">
                     <div class="col">
                         <div class="form-floating">
-                            <input type="password" class="form-control" id="password" placeholder="Password" autocomplete="off">
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Password" autocomplete="off">
                             <label for="password">Password</label>
                         </div>                  
                     </div>
                     <div class="col">
                         <div class="form-floating">
-                            <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password" autocomplete="off">
+                            <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" autocomplete="off">
                             <label for="confirmPassword">Confirm Password</label>
                         </div>                  
                     </div>
