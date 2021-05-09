@@ -10,7 +10,7 @@
 <section style="min-height: 35vh;" class="container-fluid text-dark mt-2 p-2">
 <div class="container">
     <div class="row align-items-center">
-        <div class="col-md-4 offset-md-4 rounded border border-primary shadow fade-from-bt-3s">
+        <div class="col-md-4 offset-md-4 rounded border border-primary shadow fade-from-bt-2s5">
             <img src="/img/uTM_banner.png" alt="un-Traditional Magick Logo" class="img-fluid">
             <p class="text-primary lead">One of our first customers whom we designed a website as well as a full Engagement and Learning Management System.</p>
             <p class="text-end"><a class="btn btn-outline-primary" href="https://un-traditionalmagick.com" target="_blank">Check it Out</a></p>
