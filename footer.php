@@ -21,9 +21,10 @@
         <div class="container">
           <ul class="list-unstyled text-start">
             <li><a class="text-light" href="/index">Home</a></li>
-            <!-- <li><a class="text-light" href="#">Products & Services</a></li> -->
-            <!-- <li><a class="text-light" href="#">Gallery</a></li> -->
+            <li><a class="text-light" href="/products">Products & Services</a></li>
+            <li><a class="text-light" href="/portfolio">Portfolio</a></li>
             <li><a class="text-light" href="/about">About Us</a></li>
+            <li><a class="text-light" href="/blog">Blog</a></li>
           </ul>
         </div>
       </div>

@@ -55,7 +55,18 @@
     background-size: cover;
     background-position-y: 50%;
     //Photo by <a href="https://unsplash.com/@andrewtneel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrew Neel</a> on <a href="https://unsplash.com/s/photos/journalism?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+}
+.bg-products-header {
+    background: linear-gradient(rgba($primary, 0.6), rgba($primary, 0.6)), url("/img/products-background.jpg");
+    background-size: cover;
+    background-position-y: 50%;
+    //Photo by <a href="https://unsplash.com/@frostroomhead?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rodion Kutsaev</a> on <a href="https://unsplash.com/s/photos/produce?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+}
+.bg-portfolio-header {
+    background: linear-gradient(rgba($primary, 0.6), rgba($primary, 0.6)), url("/img/portfolio-background.jpg");
+    background-size: cover;
+    background-position-y: 50%;
+    //Photo by <a href="https://unsplash.com/@goshua13?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joshua Aragon</a> on <a href="https://unsplash.com/s/photos/portfolio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 }
 

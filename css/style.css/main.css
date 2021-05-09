@@ -42,6 +42,16 @@
   background-size: cover;
   background-position-y: 50%; }
 
+.bg-products-header {
+  background: linear-gradient(rgba(115, 2, 12, 0.6), rgba(115, 2, 12, 0.6)), url("/img/products-background.jpg");
+  background-size: cover;
+  background-position-y: 50%; }
+
+.bg-portfolio-header {
+  background: linear-gradient(rgba(115, 2, 12, 0.6), rgba(115, 2, 12, 0.6)), url("/img/portfolio-background.jpg");
+  background-size: cover;
+  background-position-y: 50%; }
+
 .vertical-center {
   position: absolute;
   top: 35%;

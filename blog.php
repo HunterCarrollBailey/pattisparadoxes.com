@@ -7,7 +7,7 @@
     </div>
 </section>
 
-<section class="container-fluid text-dark mt-2 p-2">
+<section style="min-height: 35vh;" class="container-fluid text-dark mt-2 p-2">
 <h3 class="text-center">Coming Soon!</h3>
 </section>
 

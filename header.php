@@ -39,7 +39,7 @@
                     <ul id="mainNavigation" class="navbar-nav row w-100">
                         <li class="nav-item col"><a href="/index" class="nav-link">Home</a></li>
                         <li class="nav-item col"><a href="/products" class="nav-link">Products & Services</a></li>
-                        <li class="nav-item col"><a href="#" class="nav-link">Portfolio</a></li>
+                        <li class="nav-item col"><a href="/portfolio" class="nav-link">Portfolio</a></li>
                         <li class="nav-item col"><a href="/about" class="nav-link">About Us</a></li>
                         <li class="nav-item col"><a href="/blog" class="nav-link">Blog</a></li>
                     </ul>
