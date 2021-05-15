@@ -58,6 +58,11 @@
   left: 50%;
   transform: translateY(-50%) translateX(-50%); }
 
+.form-control-dark {
+  color: #fff;
+  background-color: #73020c;
+  border-color: rgba(255, 255, 255, 0.1); }
+
 @media only screen and (min-width: 600px) {
   #aboutUsHeader {
     height: 50vh; } }
@@ -73,6 +78,26 @@
 @media only screen and (min-width: 1200px) {
   #aboutUsHeader {
     height: 25vh; } }
+
+#adminSidebar li a:hover {
+  background-color: #73020c; }
+
+.dashboardCard {
+  height: 10vh;
+  color: #fff;
+  font-size: 1.25rem; }
+
+.bg-dashboardCard_1 {
+  background: linear-gradient(to right, #73020c, #bf0436); }
+
+.bg-dashboardCard_2 {
+  background: linear-gradient(to right, #062A40, #0A58BF); }
+
+.bg-dashboardCard_3 {
+  background: linear-gradient(to left, #73020c, #bf0436); }
+
+.bg-dashboardCard_4 {
+  background: linear-gradient(to left, #062A40, #0A58BF); }
 
 @keyframes fadeFromBottom {
   0% {

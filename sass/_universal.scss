@@ -77,3 +77,9 @@
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
 }
+
+.form-control-dark {
+    color: $white;
+    background-color: $primary;
+    border-color: rgba(255,255,255,.1);
+}

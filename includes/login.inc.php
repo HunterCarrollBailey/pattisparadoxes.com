@@ -18,7 +18,7 @@ if($result->num_rows > 0){
         }
         else {
         // System will allow login if no rows are updated.
-        header("Location: /sessions/home");
+        header("Location: /sessions/dashboard");
         }
     }
 }  
