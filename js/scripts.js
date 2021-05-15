@@ -31,20 +31,7 @@ $("#customersButton").click(function(){
         });
 });
 
-// Retrive List of Domains from DO
-// $("#activeInstances").ready(function(){
-//     $.ajax ({
-//         url: "https://api.digitalocean.com/v2/domains",
-//         contentType: "application/json",
-//         type: "GET",
-//         beforeSend: function(xhr){
-//             xhr.setRequestHeader("Authorization", 'Bearer c1a50e3703a088e7ca026ada796f0d6a4d39e58254673c5b0cc5b8ed00eacb6f');
-//         },
-//         success: function(result) {
-//             $("#activeInstances").html(result);
-//         }
-//     });
-// });
+//Retrieve Count of Domains From DO
 
 $("#activeDomains").ready(function(){
     $.ajax ({
@@ -52,7 +39,7 @@ $("#activeDomains").ready(function(){
         contentType: "application/json",
         type: "GET",
         beforeSend: function(xhr){
-            xhr.setRequestHeader("Authorization", 'Bearer c1a50e3703a088e7ca026ada796f0d6a4d39e58254673c5b0cc5b8ed00eacb6f');
+            xhr.setRequestHeader("Authorization", '');
         },
         success: function(result) {
             let instanceCount = result.meta.total;
@@ -60,13 +47,15 @@ $("#activeDomains").ready(function(){
         }
     });
 });
+
+//Retrieve Count of Droplets From DO
 $("#activeInstances").ready(function(){
     $.ajax ({
         url: "https://api.digitalocean.com/v2/droplets?status=active",
         contentType: "application/json",
         type: "GET",
         beforeSend: function(xhr){
-            xhr.setRequestHeader("Authorization", 'Bearer c1a50e3703a088e7ca026ada796f0d6a4d39e58254673c5b0cc5b8ed00eacb6f');
+            xhr.setRequestHeader("Authorization", '');
         },
         success: function(result) {
             let instanceCount = result.meta.total;
@@ -75,13 +64,14 @@ $("#activeInstances").ready(function(){
         }
     });
 });
+//Retrieve Count of Floating IP's From DO
 $("#floatingIPs").ready(function(){
     $.ajax ({
         url: "https://api.digitalocean.com/v2/floating_ips",
         contentType: "application/json",
         type: "GET",
         beforeSend: function(xhr){
-            xhr.setRequestHeader("Authorization", 'Bearer c1a50e3703a088e7ca026ada796f0d6a4d39e58254673c5b0cc5b8ed00eacb6f');
+            xhr.setRequestHeader("Authorization", '');
         },
         success: function(result) {
             let floatingIPCount = result.meta.total;
@@ -90,13 +80,14 @@ $("#floatingIPs").ready(function(){
         }
     });
 });
+//Retrieve Current Invoice Amount From DO
 $("#currentInvoice").ready(function(){
     $.ajax ({
         url: "https://api.digitalocean.com/v2/customers/my/invoices",
         contentType: "application/json",
         type: "GET",
         beforeSend: function(xhr){
-            xhr.setRequestHeader("Authorization", 'Bearer c1a50e3703a088e7ca026ada796f0d6a4d39e58254673c5b0cc5b8ed00eacb6f');
+            xhr.setRequestHeader("Authorization", '');
         },
         success: function(result) {
             let invoiceAmount = result.invoice_preview.amount;
