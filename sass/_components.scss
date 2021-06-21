@@ -1,0 +1,46 @@
+// Component Stylings
+#aboutUsHeader {
+    //Small Devices
+    @media only screen and (min-width: 600px){
+        height: 50vh;
+    }
+    //Medium Devices
+    @media only screen and (min-width: 768px){
+        height: 35vh;
+    }
+    //Large Devices
+    @media only screen and (min-width: 992px){
+        height: 35vh;
+    }
+    //Extra Large Devices
+    @media only screen and (min-width: 1200px){
+        height: 25vh;
+    }
+}
+
+#adminSidebar {
+    & li a {
+        &:hover {
+            background-color: $primary;
+        }
+    }
+}
+.dashboardCard {
+    height: 10vh;
+    color: $white;
+    font-size: 1.25rem;
+}
+.bg-dashboardCard {
+    &_1 {
+        background: linear-gradient(to right, $primary, $secondary);
+    }
+    &_2 {
+        background: linear-gradient(to right, #062A40, #0A58BF,);
+    }
+    &_3 {
+        background: linear-gradient(to left, $primary, $secondary);
+    }
+    &_4 {
+        background: linear-gradient(to left, #062A40, #0A58BF,);
+    }
+}
