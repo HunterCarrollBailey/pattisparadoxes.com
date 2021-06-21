@@ -18,19 +18,19 @@
 }
 
 .bg-primary-tahoe {
-  background: linear-gradient(rgba(115, 2, 12, 0.8), rgba(115, 2, 12, 0.8)), url("/img/tahoe.jpg");
+  background: linear-gradient(rgba(115, 2, 12, 0.8), rgba(115, 2, 12, 0.8)), url("img/tahoe.jpg");
   background-size: cover;
   background-position-y: 50%;
 }
 
 .bg-what-we-do {
-  background: linear-gradient(rgba(115, 2, 12, 0.8), rgba(115, 2, 12, 0.8)), url("/img/what-we-do.jpg");
+  background: linear-gradient(rgba(115, 2, 12, 0.8), rgba(115, 2, 12, 0.8)), url("img/what-we-do.jpg");
   background-size: cover;
   background-position-y: 50%;
 }
 
 .bg-about-header {
-  background: linear-gradient(rgba(115, 2, 12, 0.8), rgba(115, 2, 12, 0.8)), url("/img/office.jpg");
+  background: linear-gradient(rgba(115, 2, 12, 0.8), rgba(115, 2, 12, 0.8)), url("img/office.jpg");
   background-size: cover;
 }
 @media only screen and (min-width: 992px) {
@@ -45,25 +45,25 @@
 }
 
 .bg-tech-header {
-  background: linear-gradient(rgba(115, 2, 12, 0.8), rgba(115, 2, 12, 0.8)), url("/img/tech-background.jpg");
+  background: linear-gradient(rgba(115, 2, 12, 0.8), rgba(115, 2, 12, 0.8)), url("img/tech-background.jpg");
   background-size: cover;
   background-position-y: 50%;
 }
 
 .bg-blog-header {
-  background: linear-gradient(rgba(115, 2, 12, 0.8), rgba(115, 2, 12, 0.8)), url("/img/blog-background.jpg");
+  background: linear-gradient(rgba(115, 2, 12, 0.8), rgba(115, 2, 12, 0.8)), url("img/blog-background.jpg");
   background-size: cover;
   background-position-y: 50%;
 }
 
 .bg-products-header {
-  background: linear-gradient(rgba(115, 2, 12, 0.8), rgba(115, 2, 12, 0.8)), url("/img/products-background.jpg");
+  background: linear-gradient(rgba(115, 2, 12, 0.8), rgba(115, 2, 12, 0.8)), url("img/products-background.jpg");
   background-size: cover;
   background-position-y: 50%;
 }
 
 .bg-portfolio-header {
-  background: linear-gradient(rgba(115, 2, 12, 0.8), rgba(115, 2, 12, 0.8)), url("/img/portfolio-background.jpg");
+  background: linear-gradient(rgba(115, 2, 12, 0.8), rgba(115, 2, 12, 0.8)), url("img/portfolio-background.jpg");
   background-size: cover;
   background-position-y: 50%;
 }
