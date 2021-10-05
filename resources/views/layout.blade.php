@@ -25,7 +25,7 @@
                 <img src="img/Patti's Paradoxes Logo 2021 Long.svg" alt="Patti's Paradoxes Logo" class="img-fluid">
             </div>
             <div class="col-4 d-flex justify-content-end align-items-center">
-                <a class="btn btn-sm btn-outline-secondary d-none" href="#">Login</a>
+                <a class="btn btn-sm btn-outline-secondary" href="/login">Login</a>
             </div>
         </div>
     </header>
@@ -64,7 +64,7 @@
                 <h4 class="fw-bold">Contact Us</h4>
                 <div class="container">
                     <ul class="list-unstyled">
-                        <li><i class="fas fa-phone"></i>  (775) 357-8831</li>
+                        <li><i class="fas fa-phone"></i>  (775) 470-2487</li>
                         <li><i class="fas fa-envelope"></i>  sales@pattisparadoxes.net</li>
                     </ul>
                 </div>
