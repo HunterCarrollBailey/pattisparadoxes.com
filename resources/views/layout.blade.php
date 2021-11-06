@@ -24,7 +24,7 @@
             <div class="col-4 text-center">
                 <img src="img/Patti's Paradoxes Logo 2021 Long.svg" alt="Patti's Paradoxes Logo" class="img-fluid">
             </div>
-            <div class="col-4 d-flex justify-content-end align-items-center">
+            <div class="col-4 d-flex justify-content-end align-items-center disabled d-none">
                 <a class="btn btn-sm btn-outline-secondary" href="/login">Login</a>
             </div>
         </div>
@@ -37,11 +37,11 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     <ul id="mainNavigation" class="navbar-nav row w-100">
-                        <li class="nav-item col"><a href="/" class="nav-link text-light">Home</a></li>
-                        <li class="nav-item col"><a href="/products" class="nav-link text-light">Products & Services</a></li>
+                        <li class="nav-item col offset-2"><a href="/" class="nav-link text-light">Home</a></li>
+                        <li class="nav-item col disabled d-none"><a href="/products" class="nav-link text-light">Products & Services</a></li>
                         <li class="nav-item col"><a href="/portfolio" class="nav-link text-light">Portfolio</a></li>
                         <li class="nav-item col"><a href="/about" class="nav-link text-light">About Us</a></li>
-                        <li class="nav-item col"><a href="/blog" class="nav-link text-light">Blog</a></li>
+                        <li class="nav-item col disabled d-none"><a href="/blog" class="nav-link text-light">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -74,10 +74,10 @@
                 <div class="container">
                     <ul class="list-unstyled text-start">
                         <li><a class="text-light" href="/">Home</a></li>
-                        <li><a class="text-light" href="/products">Products & Services</a></li>
+                        <li><a class="text-light disabled d-none" href="/products">Products & Services</a></li>
                         <li><a class="text-light" href="/portfolio">Portfolio</a></li>
                         <li><a class="text-light" href="/about">About Us</a></li>
-                        <li><a class="text-light" href="/blog">Blog</a></li>
+                        <li><a class="text-light disabled d-none" href="/blog">Blog</a></li>
                     </ul>
                 </div>
             </div>
