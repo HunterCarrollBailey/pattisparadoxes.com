@@ -1,0 +1,85 @@
+// Universal Sitewide Stylings.
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+//Spacing
+.w-10 {
+    width: 10%;
+}
+.w-20 {
+    width: 20%;
+}
+.w-30 {
+    width: 30%;
+}
+
+//Backgrounds
+.bg-primary-tahoe {
+    background: linear-gradient(rgba($primary, 0.8), rgba($primary, 0.8)), url("img/tahoe.jpg");
+    background-size: cover;
+    background-position-y: 50%;
+    //Photo by <a href="https://unsplash.com/@ampedimagery?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Artur Westergren</a> on <a href="/collections/4507005/northern-nevada?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+}
+.bg-what-we-do {
+    background: linear-gradient(rgba($primary, 0.8), rgba($primary, 0.8)), url("img/what-we-do.jpg");
+    background-size: cover;
+    background-position-y: 50%;
+    //Photo by <a href="https://unsplash.com/@florianolv?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Florian Olivo</a> on <a href="/s/photos/programming?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+}
+.bg-about-header {
+    background: linear-gradient(rgba($primary, 0.8), rgba($primary, 0.8)), url("img/office.jpg");
+    background-size: cover;
+    //Photo by <a href="https://unsplash.com/@sunday_digital?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nastuh Abootalebi</a> on <a href="/s/photos/office?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    //Large Devices
+    @media only screen and (min-width: 992px){
+        background-position-y: 30%;
+    }
+    //Extra Large Devices
+    @media only screen and (min-width: 1200px){
+        background-position-y: 35%;
+    }
+
+}
+.bg-tech-header {
+    background: linear-gradient(rgba($primary, 0.8), rgba($primary, 0.8)), url("img/tech-background.jpg");
+    background-size: cover;
+    background-position-y: 50%;
+    //Photo by <a href="https://unsplash.com/@codergautam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">GAUTAM KUMAR</a> on <a href="/s/photos/hardware?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+}
+.bg-blog-header {
+    background: linear-gradient(rgba($primary, 0.8), rgba($primary, 0.8)), url("img/blog-background.jpg");
+    background-size: cover;
+    background-position-y: 50%;
+    //Photo by <a href="https://unsplash.com/@andrewtneel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrew Neel</a> on <a href="https://unsplash.com/s/photos/journalism?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+}
+.bg-products-header {
+    background: linear-gradient(rgba($primary, 0.8), rgba($primary, 0.8)), url("img/products-background.jpg");
+    background-size: cover;
+    background-position-y: 50%;
+    //Photo by <a href="https://unsplash.com/@frostroomhead?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rodion Kutsaev</a> on <a href="https://unsplash.com/s/photos/produce?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+}
+.bg-portfolio-header {
+    background: linear-gradient(rgba($primary, 0.8), rgba($primary, 0.8)), url("img/portfolio-background.jpg");
+    background-size: cover;
+    background-position-y: 50%;
+    //Photo by <a href="https://unsplash.com/@goshua13?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joshua Aragon</a> on <a href="https://unsplash.com/s/photos/portfolio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+}
+
+//Utilities
+.vertical-center {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.form-control-dark {
+    color: $white;
+    background-color: $primary;
+    border-color: rgba(255,255,255,.1);
+}
