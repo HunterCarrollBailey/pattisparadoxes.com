@@ -8,7 +8,7 @@
         "hot": "mix watch --hot",
         "prod": "npm run production",
         "production": "mix --production",
-        "compile_css": "sass sass/main.scss public/app.css"
+        "compile_css": "resources/sass sass/app.scss public/app.css"
     },
     "devDependencies": {
         "axios": "^0.21",
@@ -16,6 +16,8 @@
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14",
-        "sass": "^1.35.1"
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.35.1",
+        "sass-loader": "^12.4.0"
     }
 }

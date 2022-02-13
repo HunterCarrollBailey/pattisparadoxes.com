@@ -1,6 +1,6 @@
 @extends('layout')
 @section('main')
-    <section id="blogHeader" class="container-fluid bg-portfolio-header text-light mt-2 p-2 fade-from-bt-2s" name="Blog Header">
+    <section id="blogHeader" class="bg-portfolio-header text-light mt-2 p-2 fade-from-bt-2s" name="Blog Header">
         <div class="container text-center p-3">
             <h1>Our Portfolio</h1>
             <p class="text-start">We have included some of our work we have done previously to showcase some of our ability and customer projects. On each card, you will find a link to either our customers' website where they have graciously provided us permission to use them as reference points, or some of our demo sites.</p>

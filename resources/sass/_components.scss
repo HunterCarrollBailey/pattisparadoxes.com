@@ -44,6 +44,13 @@
         background: linear-gradient(to left, #062A40, #0A58BF,);
     }
 }
+.primary-content {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: auto;
+    display: block;
+    position: relative;
+    padding-bottom: 20rem; /* height of your footer */
+}
 footer {
     position: absolute;
     bottom: 0;

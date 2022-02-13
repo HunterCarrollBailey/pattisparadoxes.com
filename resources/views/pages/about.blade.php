@@ -1,6 +1,6 @@
 @extends('layout')
 @section('main')
-    <section id="aboutUsHeader" class="container-fluid bg-about-header text-light mt-2 p-2 fade-from-bt-2s" name="About Us Header">
+    <section id="aboutUsHeader" class="bg-about-header text-light mt-2 p-2 fade-from-bt-2s" name="About Us Header">
         <div class="container text-center p-3">
             <h1>We strive to demonstrate our Core Values in every action we take.</h1>
             <p class="text-start">Our customers are incredibly important to us, so we commit to always be honorable, show integrity, and provide the best quality and service at every opportunity. We want our customers to know that we take their vision seriously and if something needs to be changed, make a collaborative effort to bring what they need at the right time and cost.</p>

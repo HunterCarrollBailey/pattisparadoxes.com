@@ -1,11 +1,13 @@
 @extends('layout')
     @section('main')
-        <section class="container-fluid" name="About Us - Short Intro">
+        <section name="About Us - Short Intro">
             <div class="container">
                 <div class="p-4 p-md-5 mb-4 text-white rounded bg-primary-tahoe fade-from-bt-2s">
                     <div class="col-md-6 px-0">
                         <h1 class="display-4 fst-italic">Independent and Locally Owned</h1>
-                        <p class="lead my-3">Based in Northern Nevada, Patti's Paradoxes has provided custom web development and design services to the region for over 3 years while continuing to provide excellent service.</p>
+                        <p class="lead my-3">Based in Northern Nevada, Patti's Paradoxes has provided custom web development and design services to the region
+                            for over 3 years while continuing to provide excellent service. We have recently expanded our operations into supporting Capital Hill in Seattle, Washington
+                        and could not be more excited.</p>
                         <p class="lead mb-0"><a href="#" class="text-white fw-bold d-none">Continue reading...</a></p>
                     </div>
                 </div>
