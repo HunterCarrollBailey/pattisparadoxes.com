@@ -142,6 +142,13 @@ footer {
   margin-top: 2rem;
 }
 
+@media screen and (max-width: 700px) {
+  footer {
+    position: relative;
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
 @-webkit-keyframes fadeFromBottom {
   0% {
     opacity: 0;
@@ -151,7 +158,6 @@ footer {
     opacity: 1;
   }
 }
-
 @keyframes fadeFromBottom {
   0% {
     opacity: 0;

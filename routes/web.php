@@ -34,3 +34,6 @@ Route::get('/login', function () {
 Route::get('/contact', function () {
     return view('pages/contact');
 });
+Route::get('/acolyte', function () {
+    return view('pages/acolyte');
+});

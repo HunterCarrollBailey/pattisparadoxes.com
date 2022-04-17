@@ -43,6 +43,7 @@
                         <li class="nav-item col"><a href="/products" class="nav-link text-light">Products & Services</a></li>
                         <li class="nav-item col"><a href="/portfolio" class="nav-link text-light">Portfolio</a></li>
                         <li class="nav-item col"><a href="/about" class="nav-link text-light">About Us</a></li>
+                        <li class="nav-item col"><a href="/acolyte" class="nav-link text-light">Acolyte REALMS</a></li>
                         <li class="nav-item col disabled d-none"><a href="/blog" class="nav-link text-light">Blog</a></li>
                         <li class="nav-item col"><a href="/contact" class="nav-link text-light">Contact</a></li>
                     </ul>
@@ -51,6 +52,7 @@
         </nav>
     </div>
     @yield('main')
+    <div class="d-none d-sm-block d-md-none" style="min-height: 10vh"></div>
     <footer class="container-fluid bg-secondary text-center text-lg-start text-light p-2 align-items-center">
         <div class="row">
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
@@ -76,6 +78,7 @@
                         <li><a class="text-light" href="/products">Products & Services</a></li>
                         <li><a class="text-light" href="/portfolio">Portfolio</a></li>
                         <li><a class="text-light" href="/about">About Us</a></li>
+                        <li><a class="text-light" href="/acolyte">Acolyte REALMS</a></li>
                         <li><a class="text-light disabled d-none" href="/blog">Blog</a></li>
                         <li><a class="text-light" href="/contact">Contact</a></li>
                     </ul>

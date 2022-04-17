@@ -51,9 +51,18 @@
     position: relative;
     padding-bottom: 20rem; /* height of your footer */
 }
+
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     margin-top: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+    footer {
+        position: relative;
+        width: 100%;
+        margin-top: 2rem;
+    }
 }
